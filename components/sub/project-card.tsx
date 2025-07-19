@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import Badge from "./badge";
 
 type ProjectCardProps = {
   src: string;
   title: string;
   description: string;
   link: string;
+  tools: readonly string[];
 };
 
 export const ProjectCard = ({
@@ -13,6 +15,7 @@ export const ProjectCard = ({
   title,
   description,
   link,
+  tools,
 }: ProjectCardProps) => {
   return (
     <Link
@@ -30,6 +33,10 @@ export const ProjectCard = ({
       />
 
       <div className="relative p-4">
+        {tools.map((tool) => (
+          <Badge key={tool} text={tool} />
+        ))}
+
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
       </div>

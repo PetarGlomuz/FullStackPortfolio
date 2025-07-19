@@ -259,26 +259,78 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Career Climb",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      'A personal web app built for streamlining internship applications, featuring admin dashboard, WhatsApp integration, and Supabase backend.',
+    image: "/projects/career-climb/img1.png",
+    link: "https://career-climb.netlify.app/",
+    tools: ['React.js', 'Tailwind CSS', 'Supabase', 'JavaScript']
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Crypto Profit Pro",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      'A single page, modern website built for a crypto trader to showcase PNLs, offer pricing plans, and grow a Telegram community.',
+    image: "/projects/crypto-profit-pro/img1.png",
+    link: "https://cryptoprofit2.netlify.app/",
+    tools: ['React.js', 'Tailwind CSS', 'JavaScript']
   },
   {
-    title: "Space Themed Website",
+    title: "Jennera",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      'A modern aesthetics and beauty website To showcase clinically proven dermal filler solutions and rejuvenation treatments.',
+    image: "/projects/jennera/img1.png",
+    link: "https://jennera.netlify.app/",
+    tools: ['React.js', 'Tailwind CSS', 'JavaScript']
   },
+  {
+    title: "WebSnapper",
+    description:
+      'A responsive website screenshot tool that allowing users to capture, view, and download multiple URL screenshots.',
+    image: "/projects/websnapper/img1.png",
+    link: "https://websnapper.netlify.app/",
+    tools: ['HTML', 'CSS', 'JavaScript', 'Bootstrap']
+  },
+  {
+    title: "The Big Retreat Festival",
+    description:
+      'A custom web tool designed to generate a printable and filterable weekly timetable for a wellness festival.',
+    image: "/projects/big-retreat/img1.png",
+    link: "https://retreatfestival.netlify.app/",
+    tools: ['React.js', 'CSS', 'JavaScript']
+  },
+  {
+    title: "Down Hole Solutions",
+    description:
+      'A professionally revamped oil & gas services website with 33 fully responsive pages.',
+    image: "/projects/downhole/img1.png",
+    link: "https://downholesolutions.netlify.app/",
+    tools: ['React.js', 'Next.js', 'Tailwind CSS']
+  },
+  {
+    title: "DevX Portfolios",
+    description:
+      'A student focused portfolio showcase, Featuring 1000+ global portfolios with fast search and filtering.',
+    image: "/projects/devx-portfolios/img1.png",
+    link: "https://asharkamran.netlify.app/contact",
+    tools: ['React.js', 'Next.js', 'Tailwind CSS']
+  },
+  {
+    title: "Manna Bitcoin Wallet",
+    description:
+      'A sleek, single page promotional website for a Bitcoin wallet app. With app download links and feature showcase.',
+    image: "/projects/manna-wallet/img1.png",
+    link: "https://mannabitcoin.com/",
+    tools: ['React.js', 'Tailwind CSS', 'CSS', 'Email.js']
+  },
+  {
+    title: "NES Power Systems",
+    description:
+      'A clean and responsive single page website for promoting NES home battery backup solutions featuring the eco friendly WatchDog system.',
+    image: "/projects/nes-power/img1.png",
+    link: "https://nespower.netlify.app/",
+    tools: ['React.js', 'Tailwind CSS', 'JavaScript', 'Email.js']
+  },
+
 ] as const;
 
 export const FOOTER_DATA = [
