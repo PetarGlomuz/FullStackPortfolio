@@ -25,7 +25,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Petar Glomuz</div>
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Super Tiger</div>
         </Link>
 
         {/* Web Navbar */}
@@ -43,6 +43,7 @@ export const Navbar = () => {
 
             {/* Source Code */}
             <Link
+              hidden={true}
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"

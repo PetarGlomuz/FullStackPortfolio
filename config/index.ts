@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "Petar Glomuz | Portfolio",
+  title: "Super Tiger | Portfolio",
   description: "Welcome to my Portfolio.",
   keywords: [
     "reactjs",
@@ -26,7 +26,7 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Petar Glomuz",
+    name: "Super Tiger",
     url: "https://github.com/PetarGlomuz",
   },
 } as const;
